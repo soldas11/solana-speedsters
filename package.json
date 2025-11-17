@@ -1,0 +1,23 @@
+{
+  "name": "solana-speedsters-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo for Solana Speedsters NFT Racing Game",
+  "main": "index.js",
+  "scripts": {
+    "install": "pnpm install --filter \\\"./packages/*\\\" --filter \\\"./apps/*\\\"",
+    "build": "pnpm --filter \\\"./apps/*\\\" build",
+    "test": "pnpm --filter \\\"./packages/*\\\" test"
+  },
+  "keywords": [
+    "solana",
+    "anchor",
+    "nextjs",
+    "web3",
+    "monorepo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pnpm": "^9.1.4"
+  }
+}
